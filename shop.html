@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diablo II Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Diablo II Item Shop</h1>
+    <a href="index.html" class="btn">Back to Home</a>
+
+    <!-- Shopping Cart Toggle -->
+    <div id="cart-wrapper">
+      <button id="cart-toggle">
+        🛍️ <span id="cart-count">0</span>
+      </button>
+      <div id="shopping-cart" class="closed">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: 0 gold</p>
+        <p id="cart-tax">Tax (5%): 0 gold</p>
+        <p id="cart-grandtotal"><strong>Grand Total: 0 gold</strong></p>
+        <button id="checkout-btn">Purchase</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="shop-container"></main>
+
+  <footer>
+    <p>© 2026 Screamingtilk | All rights reserved</p>
+  </footer>
+
+  <!-- Purchase Modal -->
+  <div id="purchase-modal" class="hidden">
+    <div id="purchase-content">
+      <h2>Purchase Items</h2>
+      <ul id="purchase-items"></ul>
+      <p id="purchase-total"></p>
+      <div id="fake-payment">
+        <p><em>Choose your way to pay:</em></p>
+        <button class="pay-btn">Pay with Gold</button>
+        <button class="pay-btn">Pay with Blood Runes</button>
+      </div>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="js/shop.js"></script>
+</body>
+</html>

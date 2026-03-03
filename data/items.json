@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Short Sword",
+    "type": "Weapon",
+    "rarity": "Normal",
+    "price": 50,
+    "image": "https://diablo2.wiki.fextralife.com/file/Diablo-2/short_sword_weapons_diablo_2_wiki_guide196px.png",
+    "description": "A basic melee weapon."
+  },
+  {
+    "id": 2,
+    "name": "Leather Armor",
+    "type": "Armor",
+    "rarity": "Normal",
+    "price": 100,
+    "image": "https://diablo2.wiki.fextralife.com/file/Diablo-2/hard_leather_armor_diablo2_wiki_guide_196px.png",
+    "description": "Simple leather armor."
+  },
+  {
+    "id": 3,
+    "name": "Health Potion",
+    "type": "Potion",
+    "rarity": "Common",
+    "price": 10,
+    "image": "https://www.d2rgear.com/cdn/shop/products/token_collection_image_dc984196-98ad-4277-af1c-4c480c9a47ba.png?v=1756549420",
+    "description": "Saves Lives On Days Where I Missclick"
+  }
+]
